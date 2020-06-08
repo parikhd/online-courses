@@ -1,11 +1,8 @@
-Arrays:
+Array
+array of primitive will store primitive
+array of objects will store address of mem loc where actual object resides
 
-Always fixed lengt and size
-When we declare array of objects (eg String) they store the reference to the mem loc where object is stored, hence
-size is always fixed.
+retrieval by index is O(1)
+base addr + (index*length)
 
-Retrieval is always O(1) no matter what size
-Reason: multiply index with size, add it to base address, go to that loc and fetch item
-eg. a[0] = 100 + (0*4) = 100; a[2] = 100 + (2*4) = 108
-
-Retrieval without index is always O(n).
+rest operations are O(n)
