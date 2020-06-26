@@ -16,4 +16,4 @@ print(decorme(sqnum)(20))
 def cubnum(x):
     return x ** 3
 
-print(decorme(cubnum)(10))
+print(cubnum(10))
